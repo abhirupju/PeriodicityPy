@@ -1,0 +1,20 @@
+[Particles]
+Number: 100
+
+[Prior]
+Period: uniform
+PeriodScale: 1
+Std: exp
+StdScale: 1
+Rate: exp
+RateScale: relative
+
+[Dynamics]
+ScaleNormal: 0.1
+ScaleHigh: 0.01
+ScaleLow: 0.5
+
+[Resample]
+Prob: 0.25
+NewParticleProb: 0.5
+WeightMeanThresh: 0.05
